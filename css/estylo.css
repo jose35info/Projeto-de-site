@@ -1,0 +1,113 @@
+body{
+    margin:0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ccc;
+    
+}
+
+
+
+.topo{
+    background-image: url(/_projetos/site/ProjetoCSS_inicio/imagens/bg-3.jpg);
+height: 500px;
+background-position: right center;
+background-size: cover;
+border-top: 1px solid #ccc;
+
+}
+
+.topo nav ul{
+    text-align: right; /* alinhando para a direita.*/
+
+}
+
+
+.topo nav li{
+    display: inline-block;
+    list-style: none;
+    border: solid 1px white;
+    margin:20px 25px 0 0;
+    
+   
+}
+
+.topo a{
+    text-decoration: none; /*tirar o subliado*/
+    text-transform:uppercase;/* Letra em maíusculas*/
+    color: white;
+    background:rgba(0, 0, 0, 0.3); /* deixar a cor de fundo com transparencia*/
+    display: block;
+    padding: 15px;
+    letter-spacing: 2px; /* espaço entre as letras*/
+    
+    
+ 
+    
+}
+
+.topo a:hover{
+    background: rgb(85, 83, 83);
+    transition: 1.3s;
+   
+}
+
+
+.conteint{
+    text-align: center; /* ALINHA O TEXTO NO CENTRO*/
+    color: white;
+    margin-top: 150px;
+
+}
+
+.conteint h1{
+    text-transform: uppercase;/* COLOCA A LETRA EM MAIUSCULA*/
+    font-size: 46px;
+    text-shadow: 3px 2px 4px #333;
+}
+
+main{
+    width: 80%;
+    margin: auto;
+}
+
+.section{
+text-align: center;
+background-color: white;
+padding: 15px;
+margin-top: 15px;
+}
+
+.card{
+    display: inline-block;
+    margin: 10px;
+    
+    
+    
+}
+img{
+    border-radius: 20px;
+}
+
+ 
+
+h2{
+    background-color: #ccc;
+    padding: 5px;
+    margin: 1px;
+    box-shadow: 2px 2px 3px #333;
+}
+
+
+footer{
+    
+    background-color: #333;
+    height: 100px;
+}
+
+.rodape{
+    text-align: center;
+    color: white;
+    padding-top: 50px;
+    font-size: 14px;
+}
